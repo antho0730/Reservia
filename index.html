@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/547429df8e.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
 <body>
@@ -21,27 +22,38 @@
                  width="120px" 
                  height="50px" />
                 </div>
-        <div class="sizeLiens flexAround">
+    
+           
+            <div class="sizeLiens flexAround">
 
-            <div class="sizeLien flexCentre bordureNav "></div>
-                <div><a class="colorBleu decorationNone" href="#">Hébergements</a></div>
-                <div class="sizeLien flexCentre bordureNav23"><a  class="colorLien2  decorationNone" href="#">Activités</a></div>
-                <div class="sizeLien flexCentre bordureNav23"><a class="colorBleu decorationNone" href="#">S'inscrire</a></div>
+                <div class="sizeLien flexCentre bordureNav "></div>
+                    <div><a class="colorBleu decorationNone" href="#">Hébergements</a></div>
+                    <div class="sizeLien flexCentre bordureNav23"><a  class="colorLien2  decorationNone" href="#">Activités</a></div>
+                    <div class="sizeLien flexCentre bordureNav23"><a class="colorBleu decorationNone" href="#">S'inscrire</a></div>
+            
+        </div>
+    </div>
+
+           
             </div>
         </div>
     </nav>
+    
     <header>
-        <section>
-            <div>
-                <h1>Trouver votre hébergement pour vos vacances de rêve</h1>
+           <section>
+                <div><h1>Trouver votre hébergement pour vos vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-            </div>
-            <div>
-                <div><i class="fas fa-map-marker-alt"></i></div>
-                <input type="search" id="search" value="Marseille,France">
-                <div>Rechercher</div>
-            </div>
-        </section>
-    </header>
-</body>
+                <form>
+                    <span class="searchFormWrapIcon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <input class="searchinput" type="search" placeholder="Marseille, France">
+                    <button>
+                        <span class="searchFormButton">Rechercher</span> 
+                    </button>
+                </form>
+                </form>
+          </section>           
+        </header>                 
+     </body>   
 </html>
