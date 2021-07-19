@@ -1,0 +1,121 @@
+/* GENERAL */
+html, body {
+    font-family: Raleway;
+}
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.decorationNone {
+    text-decoration: none;
+}
+.textGras {
+    font-weight: bold;
+}
+.colorBleu {
+    color: #0065fc;
+
+}
+.colorBleuClair {
+    color: #deebff;
+
+}
+.colorGris {
+    color:#f2f2f2;
+
+}
+
+.backBleu {
+    background-color: #0065fc;
+
+}
+.backBleuClair {
+    background-color: #deebff;
+
+}
+.backGris {
+    background-color:#f2f2f2;
+
+}
+/* NAV */
+.sizeNav {
+    height: 100px;
+}
+.sizeLiens {
+    width: 45%;
+}
+.sizeLien {
+     width: 140px;
+     height: 99px;
+}
+
+.colorLiens2 {
+    color: black;
+   
+}
+
+.bordureNav23 {
+    border-top: 1px solid transparent;
+}
+.margelogo {
+    margin-bottom: 7px;
+}
+*/HEADER/
+
+.bordureSearch{
+width: 400px;
+border-radius: 10px;
+}
+
+.searchinput{
+        border-right: none;
+        border-left: none;
+        border-top: #F2F2F2 1px solid;
+        border-bottom: #F2F2F2 1px solid;
+        padding: 0 1.5rem;
+        width: 20rem;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Raleway","Sans serif";
+        display: inline-flex;
+        max-width: 100%;
+        overflow: auto;
+        height: 53px;
+  
+}
+.searchFormWrapIcon{
+    height: 50px;
+    width: 50px;
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+    background-color: #f2f7ff
+}
+
+.button{
+ 
+    background-color: #0065FC;
+    border-top-right-radius: 40px;
+    height: 20px
+    width: 20px
+    
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    
+    
+}
+
