@@ -25,7 +25,14 @@ html, body {
 }
 .colorBleu {
     color: #0065fc;
-
+    cursor: pointer;
+    
+}
+.colorBleu2 {
+    color:#0065fc;
+    font-weight:bold;
+    cursor:pointer
+    
 }
 .colorBleuClair {
     color: #deebff;
@@ -60,7 +67,7 @@ html, body {
      height: 99px;
 }
 
-.colorLiens2 {
+.colorBlack2 {
     color: black;
    
 }
@@ -71,6 +78,8 @@ html, body {
 .margelogo {
     margin-bottom: 7px;
 }
+
+
 */HEADER/
 
 .bordureSearch{
@@ -92,9 +101,10 @@ border-radius: 10px;
         max-width: 100%;
         overflow: auto;
         height: 53px;
-  
+        
 }
-.searchFormWrapIcon{
+.searchFormWrapIcon {
+    
     height: 50px;
     width: 50px;
     background-color: #F2F2F2;
@@ -104,18 +114,51 @@ border-radius: 10px;
     background-color: #f2f7ff
 }
 
-.button{
- 
-    background-color: #0065FC;
-    border-top-right-radius: 40px;
-    height: 20px
-    width: 20px
+.button {
     
+    background-color: #0065FC;
+    border-radius: 0 10px 10px 0;
+    height: 50px;
+    width: 120px;
     border: none;
     color: white;
-    outline: none;
+    cursor: pointer;
     font-weight: bold;
-    
+    text-align: center;
+
+}
+
+
+/*Filtres*/
+
+.Filtres {
+    display: flex;
+    align-items: center;
+}
+
+.MargFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.Économique {
+    display: flex;
+    align-items: center;
+   
+}
+
+.Familial {
+    display: flex;
+    align-items: center;
     
 }
 
+.Romantique {
+    display: flex;
+    align-items: center;
+}
+
+.Animaux {
+    display: flex;
+    align-items: center;
+}
